@@ -3,5 +3,5 @@ const colorSelect = document.getElementById("colorSelect");
 
 function selectAndRemove() {
 	
-  colorSelect.remove(colorSelect.selectedElement);
+  colorSelect.remove(colorSelect.selectedIndex);
 }
