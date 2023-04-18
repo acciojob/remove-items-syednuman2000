@@ -1,7 +1,7 @@
 //your JS code here. If required.
-
+const colorSelect = document.getElementById("colorSelect");
 
 function selectAndRemove() {
-	const colorSelect = document.getElementById("colorSelect");
+	
   colorSelect.remove(colorSelect.selectedElement);
 }
